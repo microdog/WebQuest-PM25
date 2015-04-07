@@ -1,0 +1,221 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .7);
+}
+
+/* Custom page header */
+.header {
+  position:fixed;
+  height: 50px;
+  display:block;
+  width: 100%;
+  background: #333;
+  z-index:9;
+  text-align:center;
+  color: #f2f2f2;
+  top: 0px;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+a, a:visited, a:hover {
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: none;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, .9);
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 2em;
+  text-shadow: 3px 2px 0 rgba(0, 0, 0, .7);
+  margin-top: 50px;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5em;
+}
+
+pre {
+  color: #ffffff;
+  background-color: rgba(245, 245, 245, 0.1);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+}
+
+.overflow-padding {
+  height: 40px;
+}
+
+.section {
+  text-align: center;
+}
+
+.intro {
+  color: #333333;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .7);
+}
+
+.intro p {
+  padding: 20px;
+}
+
+.words {
+  color: #333333;
+  text-shadow: 0 2px 2px rgba(51, 51, 51, .7);
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.panel {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  max-width: 60%;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 0.9em;
+}
+
+.panel-heading {
+  background-color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+mark {
+  background-color: rgba(252, 248, 227, 0.6);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.fp-controlArrow.fp-prev {
+  border-color: transparent rgba(255, 127, 80, 0.4) transparent transparent;
+}
+.fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent rgba(255, 127, 80, 0.4);
+}
+
+
+@media (max-width: 768px) {
+  body {
+    font-size: 10px;
+  }
+
+  .panel {
+    max-width: 80%;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+/* Backgrounds */
+.section {
+  background-size: cover;
+}
+
+.slide {
+  background: no-repeat center;
+  background-size: cover;
+}
+
+#sectionWelcome {
+  background-image: url(../images/s_home_0.jpg);
+  padding: 20% 0 0 0;
+}
+
+#sectionIntro {
+}
+
+#introSlide0 {
+  background-image: url(../images/s_intro_0.png);
+  padding: 9% 0 0 0;
+}
+
+#introSlide1 {
+  background-image: url(../images/s_intro_1.jpg);
+  padding: 6% 0 0 0;
+}
+
+#introSlide2 {
+  background-image: url(../images/s_intro_2.jpg);
+  padding: 6% 0 0 0;
+}
+
+#introSlide3 {
+  background-image: url(../images/s_intro_3.png);
+  padding: 1% 0 0 0;
+}
+
+#sectionTask {
+  background-color: rgb(27, 188, 155);
+  padding: 10% 0 0 0;
+}
+
+#procSlide0 {
+  background-color: rgb(74, 111, 177);
+}
+
+#procSlide1 {
+  background-color: rgb(75, 191, 195);
+}
+
+#sectionEval {
+  background-color: rgb(123, 170, 190);
+  padding: 10% 0 0 0;
+}
+
+#sectionCon {
+  background-image: url(../images/s_con_0.jpg);
+  padding: 20% 0 0 0;
+}
+
+#sectionRef {
+  background-color: rgb(126, 143, 124);
+}
+
+#sectionTeacher {
+  background-color: #6f5499;
+}

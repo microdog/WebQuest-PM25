@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#fullpage").fullpage({anchors:["welcome","intro","task","proc","eval","con","ref","teacher"],verticalCentered:!1,slidesNavigation:!0,menu:"#menu",animateAnchor:!0,scrollOverflow:!0})});
